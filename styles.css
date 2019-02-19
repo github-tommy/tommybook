@@ -1,0 +1,68 @@
+.body-container {
+    width: 100%;
+    outline: 1px dotted #0bb634;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #00abeb;
+}
+
+.body-article {
+    outline: 1px dotted yellow;
+    width: 30%;
+    margin: 20px;
+    min-width: 18rem; 
+    background-color: whitesmoke
+}
+
+.body-article img {
+    width: 30%;
+}
+
+.article button {
+    width: 100%;
+    height: 30px;
+}
+
+.nav-bar {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    background-color: #494c4f;
+}
+
+.nav-bar a {
+
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 14px 20px;
+    text-align: center;
+  }
+
+a {
+    color: whitesmoke;
+}
+
+header {
+    margin: 10px;
+    color: black;
+    padding: 20px;
+
+}
+
+.article img {
+    width: 40%;
+}
+
+main {
+    margin: 20px;
+}
+
+footer {
+    margin: 20px;
+    background-color:#c1c1c1;
+}
+
+html {
+    background-color: whitesmoke;
+}
