@@ -1,68 +1,99 @@
-.body-container {
-    width: 100%;
-    outline: 1px dotted #0bb634;
+.section {
+    width: 95%;
+    margin: 30px;
+    outline: 1px dotted red;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: #00abeb;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* background-color: #30517f; */   
+    /* background-color: #00abeb; */
 }
 
-.body-article {
-    outline: 1px dotted yellow;
+.section img {
+    width: 80%;
+}
+
+.left-section {
+    width: 65%;
+
+}
+
+.right-section {
     width: 30%;
-    margin: 20px;
-    min-width: 18rem; 
-    background-color: whitesmoke
+    padding: 30px;
+}
+
+@media (max-width: 900px) {
+    .left-section {
+        width: 100%;
+    }
+
+    .right-section {
+        width: 0;
+        display: none;
+    }
 }
 
 .body-article img {
     width: 30%;
 }
 
-.article button {
-    width: 100%;
-    height: 30px;
-}
-
 .nav-bar {
-    margin: 20px;
+    margin: 30px;
     padding: 20px;
     color: white;
-    background-color: #494c4f;
+    /* background-color: #494c4f; */
+    background-color: #30517f;
+    display: flex;
 }
 
 .nav-bar a {
-
+    color: white;
     text-decoration: none;
     font-size: 1rem;
     padding: 14px 20px;
     text-align: center;
   }
 
-a {
+/* ====nav bottom============================================== */
+.nav-bottom {
+    width: 95%;
+    background-color: #30517f;
+    padding: 30px;
+    margin: 30px;
+
+}
+
+.nav-bottom a {
     color: whitesmoke;
+    padding: 14px 20px;
+    text-align: center;
+}
+
+a {
+    color: #30517f;
 }
 
 header {
-    margin: 10px;
-    color: black;
-    padding: 20px;
-
-}
-
-.article img {
-    width: 40%;
-}
-
-main {
-    margin: 20px;
+    width: 90%;
+    margin: 30px;
+    color: white;
+    background-color: #30517f;
+    padding: 30px;
+    outline: dotted yellow;
 }
 
 footer {
-    margin: 20px;
-    background-color:#c1c1c1;
+    color: #c1c1c1;
+    background-color: #30517f;
+    text-align: center;
+    margin: 30px;
+    width: 90%;
 }
 
-html {
-    background-color: whitesmoke;
+.search-page {
+    width: 100%;
+    margin: 30px;
+    display: flex;
+    background-color: pink;
 }
