@@ -34,8 +34,8 @@
     }
 }
 
-.body-article img {
-    width: 30%;
+.left-section img {
+    width: 40%;
 }
 
 .nav-bar {
@@ -81,6 +81,7 @@ header {
     background-color: #30517f;
     padding: 30px;
     outline: dotted yellow;
+    diplay: flex;
 }
 
 footer {
@@ -91,9 +92,18 @@ footer {
     width: 90%;
 }
 
+.email-me {
+    width: 100%;
+    color: #0bb634;
+    background-color: #c1c1c1;
+    padding: 20px;
+    text-align: center;
+}
+
 .search {
     width: 100%;
     margin: 30px;
     display: flex;
     background-color: pink;
 }
+
