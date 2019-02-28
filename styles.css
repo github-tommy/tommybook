@@ -40,7 +40,7 @@
 
 .nav-bar {
     margin: 30px;
-    padding: 20px;
+    padding: 10px;
     color: white;
     /* background-color: #494c4f; */
     background-color: #30517f;
@@ -57,7 +57,7 @@
 
 /* ====nav bottom============================================== */
 .nav-bottom {
-    width: 95%;
+    width: 90%;
     background-color: #30517f;
     padding: 30px;
     margin: 30px;
@@ -70,6 +70,15 @@
     text-align: center;
 }
 
+.nav-left {
+    position: relative;
+}
+
+.nav-right {
+    position: absolute;
+    top: -35px;
+    right: -15px;
+}
 a {
     color: #30517f;
 }
@@ -99,7 +108,7 @@ footer {
     background-color: #30517f;
     text-align: center;
     margin: 30px;
-    width: 90%;
+    width: 100%;
 }
 
 .email-me {
