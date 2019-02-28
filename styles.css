@@ -35,7 +35,7 @@
 }
 
 .left-section img {
-    width: 40%;
+    width: 50%;
 }
 
 .nav-bar {
@@ -84,6 +84,16 @@ header {
     diplay: flex;
 }
 
+.header-left {
+    position: relative;
+}
+
+.header-right {
+    position: absolute;
+    top: 60px;
+    right: 90px;
+}
+
 footer {
     color: #c1c1c1;
     background-color: #30517f;
@@ -93,17 +103,32 @@ footer {
 }
 
 .email-me {
-    width: 100%;
+    width: 95%;
     color: #0bb634;
     background-color: #c1c1c1;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .search {
-    width: 100%;
+    width: 87%;
     margin: 30px;
     display: flex;
-    background-color: pink;
+    /* background-color: #00abeb;*/
+    background-color:plum ;
+    color: white;
+    text-align: center;
+    padding: 50px;
 }
 
+.button {
+    width: 90%;
+    padding: 30px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    font-size: 20px;
+}
