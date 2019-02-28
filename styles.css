@@ -15,7 +15,6 @@
 
 .left-section {
     width: 65%;
-
 }
 
 .right-section {
@@ -44,6 +43,7 @@
     color: white;
     /* background-color: #494c4f; */
     background-color: #30517f;
+    /* background-color: #001531; */
     display: flex;
 }
 
@@ -58,10 +58,10 @@
 /* ====nav bottom============================================== */
 .nav-bottom {
     width: 90%;
-    background-color: #30517f;
+    /* background-color: #30517f; */
+    background-color: #001531;
     padding: 30px;
     margin: 30px;
-
 }
 
 .nav-bottom a {
@@ -88,6 +88,7 @@ header {
     margin: 30px;
     color: white;
     background-color: #30517f;
+    /* background-color: #001531; */
     padding: 30px;
     outline: dotted yellow;
     diplay: flex;
