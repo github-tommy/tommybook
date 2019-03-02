@@ -15,6 +15,7 @@
 
 .left-section {
     width: 65%;
+    padding: 20px;
 }
 
 .right-section {
@@ -124,9 +125,10 @@ a {
 } */
 
 .header {
-    width: 95%;
+    width: 92%;
     margin: 30px;
-    background-color: #001531;
+    padding: 20px;
+    background-color: #30517f;
     color: white;
 }
 
