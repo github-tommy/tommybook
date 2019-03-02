@@ -1,7 +1,7 @@
 .section {
     width: 95%;
     margin: 30px;
-    outline: 1px dotted red;
+    /* outline: 1px dotted red; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -128,21 +128,18 @@ a {
     margin: 30px;
     background-color: #001531;
     color: white;
-    outline: dotted purple;
 }
 
 .header-left {
     flex: 7;
     order: 1;
-    outline: dotted blue;
 }
 .header-right {
     flex: 1;
     order: 1;
-    outline: dotted yellow;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 700px) {
     .header {
         display: flex;
         justify-content: space-between;
