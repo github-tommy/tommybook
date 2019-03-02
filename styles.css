@@ -59,8 +59,8 @@
 /* ====nav bottom============================================== */
 .nav-bottom {
     width: 90%;
-    /* background-color: #30517f; */
-    background-color: #001531;
+    background-color: #30517f;
+    /* background-color: #001531; */
     padding: 30px;
     margin: 30px;
 }
@@ -77,11 +77,22 @@
 
 .nav-right {
     position: absolute;
-    top: -35px;
-    right: -15px;
+    top: -22px;
+    right: 0;
 }
 a {
     color: #30517f;
+}
+
+@media (max-width: 700px) {
+    .nav-right {
+        width: 100%;
+    }
+
+    .nav-left {
+        width: 0;
+        display: none;
+    }
 }
 
 /* header {
@@ -125,7 +136,7 @@ a {
 } */
 
 .header {
-    width: 92%;
+    width: 93.5%;
     margin: 30px;
     padding: 20px;
     background-color: #30517f;
@@ -135,13 +146,17 @@ a {
 .header-left {
     flex: 7;
     order: 1;
+    height: 85px;
+    outline: dotted red;
 }
 .header-right {
     flex: 1;
     order: 1;
+    height: 85px;
+    outline: dotted yellow;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 400px) {
     .header {
         display: flex;
         justify-content: space-between;
@@ -157,8 +172,11 @@ footer {
 }
 
 h2 {
-    font-size: 16px;
+    color: white;
+    padding: 18px;
+    font-size: 18px;
 }
+
 .email-me {
     width: 95%;
     color: #0bb634;
@@ -196,7 +214,6 @@ h2 {
     .header-left {
         width: 100%;
     }
-
     .header-right {
         width: 0;
         display: none;
