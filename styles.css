@@ -77,7 +77,7 @@
 
 .nav-right {
     position: absolute;
-    top: -22px;
+    top: -36px;
     right: 0;
 }
 a {
@@ -85,11 +85,11 @@ a {
 }
 
 @media (max-width: 700px) {
-    .nav-right {
+    .nav-left {
         width: 100%;
     }
 
-    .nav-left {
+    .nav-right {
         width: 0;
         display: none;
     }
@@ -147,13 +147,13 @@ a {
     flex: 7;
     order: 1;
     height: 85px;
-    outline: dotted red;
+    /* outline: dotted red; */
 }
 .header-right {
     flex: 1;
     order: 1;
     height: 85px;
-    outline: dotted yellow;
+    /* outline: dotted yellow; */
 }
 
 @media (min-width: 400px) {
@@ -171,11 +171,7 @@ footer {
     width: 100%;
 }
 
-h2 {
-    color: white;
-    padding: 18px;
-    font-size: 18px;
-}
+
 
 .email-me {
     width: 95%;
@@ -210,7 +206,7 @@ h2 {
 }
 
 /* HEADER LOGO AND POSITION */
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
     .header-left {
         width: 100%;
     }
@@ -218,4 +214,4 @@ h2 {
         width: 0;
         display: none;
     }
-} */
+}
