@@ -1,6 +1,6 @@
 .section {
-    width: 95%;
-    margin: 30px;
+    width: 100%;
+    margin: 10px;
     /* outline: 1px dotted red; */
     display: flex;
     flex-direction: row;
@@ -15,12 +15,12 @@
 
 .left-section {
     width: 65%;
-    padding: 20px;
+    padding: 10px;
 }
 
 .right-section {
-    width: 30%;
-    padding: 30px;
+    width: 35%;
+    padding: 10px;
 }
 
 @media (max-width: 900px) {
@@ -38,8 +38,10 @@
     width: 50%;
 }
 
+/* NAV  =================================================== */
+
 .nav-bar {
-    margin: 30px;
+    margin: 10px;
     padding: 10px;
     color: white;
     /* background-color: #494c4f; */
@@ -56,13 +58,14 @@
     text-align: center;
   }
 
-/* ====nav bottom============================================== */
+/* NAV BOTTOM ============================================== */
+
 .nav-bottom {
-    width: 90%;
+    width: 100%;
     background-color: #30517f;
     /* background-color: #001531; */
     padding: 30px;
-    margin: 30px;
+    margin: 10px;
 }
 
 .nav-bottom a {
@@ -136,8 +139,8 @@ a {
 } */
 
 .header {
-    width: 93.5%;
-    margin: 30px;
+    width: 100%;
+    margin: 10px;
     padding: 20px;
     background-color: #30517f;
     color: white;
@@ -150,12 +153,12 @@ a {
     /* outline: dotted red; */
 }
 
-.header-left-two {
+/* .header-left-two {
     flex: 3;
     order: 2;
     height: auto;
-    /* outline: dotted red; */
-}
+    outline: dotted red;
+} */
 
 .header-left-three {
     flex: 3;
@@ -171,10 +174,31 @@ a {
     /* outline: dotted yellow; */
 }
 
-@media (min-width: 400px) {
+@media (min-width: 700px) {
     .header {
         display: flex;
         justify-content: space-between;
+    }
+}
+
+/* HEADER LOGO AND POSITION========================= */
+
+@media (max-width: 415px) {
+    .header-left-one {
+        width: 100%;
+        font-size: 16px;
+    }
+    .header-left-two {
+        width: 0;
+        display: none;
+    }
+    .header-left-three {
+        width: 100%;
+        font-size: 8px;
+    }
+    .header-right {
+        width: 0;
+        display: none;
     }
 }
 
@@ -185,8 +209,6 @@ footer {
     margin: 30px;
     width: 100%;
 }
-
-
 
 .email-me {
     width: 95%;
@@ -218,22 +240,4 @@ footer {
     background-color:whitesmoke;
     border-radius: 10px;
     font-size: 20px;
-}
-
-/* HEADER LOGO AND POSITION */
-@media (max-width: 900px) {
-    .header-left-one {
-        width: 80%;
-    }
-    .header-left-two {
-        width: 0;
-        display: none;
-    }
-    .header-left-three {
-        width: 80%;
-    }
-    .header-right {
-        width: 0;
-        display: none;
-    }
 }
