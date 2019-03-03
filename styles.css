@@ -89,12 +89,12 @@ a {
 
 @media (max-width: 700px) {
     .nav-left {
-        width: 100%;
+        width: 0;
+        display: none;
     }
 
     .nav-right {
-        width: 0;
-        display: none;
+        width: 100%;
     }
 }
 
@@ -149,7 +149,7 @@ a {
 .header-left-one {
     flex: 3;
     order: 1;
-    height: auto;
+    height: 30px;
     /* outline: dotted red; */
 }
 
@@ -163,7 +163,7 @@ a {
 .header-left-three {
     flex: 3;
     order: 3;
-    height: auto;
+    height: 30px;
     /* outline: dotted red; */
 }
 
@@ -240,4 +240,8 @@ footer {
     background-color:whitesmoke;
     border-radius: 10px;
     font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
 }
