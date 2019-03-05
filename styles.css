@@ -168,6 +168,7 @@ a {
     flex: 3;
     order: 3;
     height: auto;
+    color: white;
     /* outline: dotted blue; */
 }
 
@@ -197,6 +198,7 @@ a {
     } */
     .header-left-three {
         width: 100%;
+        color: white;
     }
     .header-right {
         width: 0;
@@ -245,7 +247,7 @@ footer {
     margin: 30px;
     display: flex;
     /* background-color: #00abeb;*/
-    background-color: #30517f;
+    background-color: #092f57;
     /* background-color: #dbedff; */
     color: white;
     text-align: center;
@@ -263,3 +265,22 @@ footer {
 /* h1 {
     font-size: 40px;
 } */
+
+.home-tile img{
+    width: 100%;
+}
+
+.home-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.home-tile {
+    width: 30%;
+    max-width: 400px;
+    margin: 2rem 0;
+    border: 1px solid grey;
+}
