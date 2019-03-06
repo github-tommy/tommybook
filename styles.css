@@ -42,7 +42,7 @@
 /* NAV  =================================================== */
 
 .nav-bar {
-    margin: 10px;
+    margin: 10px -50px 10px 10px;
     padding: 10px;
     color: white;
     /* background-color: #494c4f; */
@@ -216,6 +216,8 @@ a {
     } */
     .header-left-three {
         width: 70%;
+        color: white;
+        
     }
     .header-right {
         width: 30;
@@ -265,6 +267,11 @@ footer {
 /* h1 {
     font-size: 40px;
 } */
+
+.search-page-layout {
+    margin: 10px;
+    padding: 10px;
+}
 
 .home-tile img{
     width: 100%;
