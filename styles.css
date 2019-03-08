@@ -210,7 +210,7 @@ a {
 
 @media (max-width: 1024px) {
     .header-left-one {
-        width: 70%;
+        width: 100%;
     }
     .header-left-two {
         width: 100%;
@@ -223,7 +223,8 @@ a {
         
     }
     .header-right {
-        width: 30;
+        width: 0;
+        display: none;
     }
 }
 footer {
