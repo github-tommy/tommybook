@@ -191,7 +191,7 @@ a {
 
 @media (max-width: 415px) {
     .header-left-one {
-        width: 90%;
+        width: 70%;
     }
     .header-left-two {
         width: 100%;
@@ -203,7 +203,7 @@ a {
         color: #fff;;
     }
     .header-right {
-        width: 10%;
+        width: 30%;
         display: none;
     }
 }
