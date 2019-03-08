@@ -154,15 +154,15 @@ a {
     flex: 3;
     order: 1;
     height: auto;
-    outline: dotted red;
+    /* outline: dotted red; */
 }
 
 .header-left-two {
     flex: 3;
     order: 2;
     height: auto;
-    color: pink:
-    outline: dotted green;
+    /* color: pink; */
+    /* outline: dotted green; */
 }
 
 .header-left-three {
@@ -170,7 +170,7 @@ a {
     order: 3;
     height: auto;
     color:yellow;
-    outline: dotted blue;
+    /* outline: dotted blue; */
 }
 
 .header-right {
@@ -193,12 +193,13 @@ a {
     .header-left-one {
         width: 100%;
     }
-    /* .header-left-two {
+    .header-left-two {
+        width: 100%;
+        display: none;
+    }
+    .header-left-three {
         width: 0;
         display: none;
-    } */
-    .header-left-three {
-        width: 100%;
         color: white;
     }
     .header-right {
@@ -211,12 +212,13 @@ a {
     .header-left-one {
         width: 70%;
     }
-    /* .header-left-two {
+    .header-left-two {
+        width: 100%;
+        display: none;
+    }
+    .header-left-three {
         width: 0;
         display: none;
-    } */
-    .header-left-three {
-        width: 70%;
         color: white;
         
     }
