@@ -154,22 +154,23 @@ a {
     flex: 3;
     order: 1;
     height: auto;
-    /* outline: dotted red; */
+    outline: dotted red;
 }
 
-/* .header-left-two {
+.header-left-two {
     flex: 3;
     order: 2;
     height: auto;
+    color: pink:
     outline: dotted green;
-} */
+}
 
 .header-left-three {
     flex: 3;
     order: 3;
     height: auto;
-    color: white;
-    /* outline: dotted blue; */
+    color:yellow;
+    outline: dotted blue;
 }
 
 .header-right {
