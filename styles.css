@@ -263,6 +263,8 @@ footer {
     cursor: pointer;
 }
 
+/* TRANSITION ON THE HEADER AND PICTURE */
+
 .transition1 {
     width: 350px;
     height: 400px;
@@ -276,10 +278,52 @@ footer {
   }
   
   .transition1:hover {
-    width: 1075px;
+    width: 800px;
   }
 
-  /* CSS for Animation */
+/* TRANSITION+TRANSFORM 360D ON LOGO */
+
+.header-right {
+    width: 100px;
+    height: 100px;
+  
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+.header-right:hover {
+    width: 100px;
+    height: 100px;
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(360deg);
+  }
+
+/* ANIMATION ON HEADER COLOR CHANGE 2 ITERATION COUNT*/
+
+.header {
+
+    background-color:#092f57;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes example {
+    from {background-color:#1b5a7d;}
+    to {background-color: #0bb634;}
+  }
+  
+  /* Standard syntax */
+  @keyframes example {
+    from {background-color:#1b5a7d;}
+    to {background-color: white;
+    color: #092f57;}
+  }
+
+  /* CSS FOR ANIMATION BIRD */
 
   @import url('https://fonts.googleapis.com/css?family=Arima+Madurai:300');
 
@@ -451,3 +495,4 @@ footer {
 	}
 	
 }
+
