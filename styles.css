@@ -1,9 +1,33 @@
+/* ANIMATION MOVING AROUND MYLOGO */
+
+.header-right {
+position: relative;
+animation-name: mylogoanimation;
+animation-duration: 4s;
+
+    width: 100px;
+    height: 100px;
+  
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+  }
+
+
+  @keyframes mylogoanimation{
+      0% {left: 0px; top: 0px;}
+      25% {left: -400px; top: 0px;}
+      50% {left: -500px; top: 300px;}
+      75% {left: 0px; top: 300px;}
+      100% {left: 0px; top: 0px;}
+
+  }
+
 /* ANIMATION ON BACKGROUND PICTURE - CHANGE OF COLOR */
 
 .transition1 {
     background: white;
     animation-name: myanimation;
-    animation-duration: 10s;
+    animation-duration: 5s;
     padding: 5px;
 }
 
