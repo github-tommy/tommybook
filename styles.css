@@ -59,16 +59,15 @@
 
 /* NAV  =================================================== */
 
-.nav-bar {
+.nav {
+    background-color: #092f57;
     margin: 10px -50px 10px 10px;
     padding: 10px;
     color: white;
-    /* background-color: #494c4f; */
-    background-color: #092f57;
     display: flex;
 }
 
-.nav-bar a {
+.nav a {
     color: white;
     text-decoration: none;
     font-size: 1rem;
