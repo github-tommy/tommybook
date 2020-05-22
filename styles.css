@@ -33,9 +33,9 @@ animation-duration: 4s;
 
 @keyframes myanimation {
     0% {background-color: white; color: #092f57;}
-    25% {background-color:rgb(197, 233, 245);}
-    50% {background-color: rgb(248, 217, 217);}
-    75% {background-color: #f9d3f4; color:black;}
+    25% {background-color:rgb(204, 208, 209);}
+    50% {background-color: rgb(34, 136, 177);}
+    75% {background-color: #a9a9b4; color:black;}
     100% {background-color: white;
     }
 }
